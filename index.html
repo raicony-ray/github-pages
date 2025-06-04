@@ -1,0 +1,31 @@
+<html>
+    <head>
+    <title>Formulário Simples</title>
+    </head>
+    <body>
+    <h1>Formulário de Cadastro</h1>
+
+    <form action="recene.html" method="get">
+        Nome completo:<br>
+        <input type="text" name="nome" maxlength="50"><br><br>
+        Senha:<br>
+        <input type="password" name="senha"><br><br>
+        Idade:<br>
+        <input type="number" name="idade" min="1" max="120"><br><br>
+        E-mail:<br>
+        <input type="text" name="email"><br><br>
+        Data de nascimento:<br>
+        <input type="date" name="data_nascimento" min="2000-01-01" max="2020-12-31"><br><br>
+        Observações:<br>
+        <textarea name="obs" rows="4" cols="40"></textarea><br><br>
+        Escolha de interesse:<br>
+        <input type="checkbox" name="interesse" value="Programação"> Programação<br>
+        <input type="checkbox" name="interesse" value="Design"> Design<br>
+        <input type="checkbox" name="interesse" value="Redes"> Redes<br>
+        <input type="checkbox" name="interesse" value="Suporte"> Suporte<br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    </body>
+</html>
+
+
